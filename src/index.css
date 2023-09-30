@@ -23,6 +23,7 @@ body {
   min-height: 100vh;
   font-family: Lato, sans-serif;
   font-weight: 400;
+  margin-left: 200px;
 }
 
 .navbar {

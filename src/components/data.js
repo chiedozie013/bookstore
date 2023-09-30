@@ -1,11 +1,19 @@
-import React from 'react';
-import { Outlet } from 'react-router-dom';
-import Navbar from './Navbar';
+const booksList = [
+  {
+    author: 'Jordan Moore',
+    title: 'Interesting Facts For Curious Minds',
+    id: 1,
+  },
+  {
+    author: 'James Clear',
+    title: 'Atomic Habits',
+    id: 2,
+  },
+  {
+    author: 'Stephen King',
+    title: 'Fairy Tale',
+    id: 3,
+  },
+];
 
-const SharedLayout = () => (
-  <>
-    <Navbar />
-    <Outlet />
-  </>
-);
-export default SharedLayout;
+export default booksList;

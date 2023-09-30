@@ -1,6 +1,6 @@
 import { Route, Routes } from 'react-router-dom';
 import './index.css';
-import BookList from './pages/BookList';
+import BookList from './pages/Booklist';
 import Categories from './pages/Categories';
 import SharedLayout from './components/SharedLayout';
 import Error from './pages/Error';
