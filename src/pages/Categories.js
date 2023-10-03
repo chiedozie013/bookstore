@@ -10,6 +10,7 @@ const Categories = () => {
     if (categories.length === 0) {
       dispatch(checkStatus());
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [categories.length]);
 
   return <h2>{status}</h2>;
