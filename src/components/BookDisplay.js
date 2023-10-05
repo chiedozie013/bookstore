@@ -1,11 +1,11 @@
-import { useSelector, useDispatch } from "react-redux";
-import { useEffect } from "react";
+import { useSelector, useDispatch } from 'react-redux';
+import { useEffect } from 'react';
 import {
   fetchBooksFromAPI,
   removeBooksFromUI,
   deleteBooksFromAPI,
-} from "../redux/books/BookSlice";
-import styles from "../styles/BooksDisplay.module.css";
+} from '../redux/books/BookSlice';
+import styles from '../styles/BooksDisplay.module.css';
 
 const BooksDisplay = () => {
   const { books, loading, error } = useSelector((store) => store.book);
