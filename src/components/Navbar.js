@@ -24,14 +24,7 @@ const Navbar = () => (
     </NavLink>
 
     <div className={styles.icon}>
-      <ImUser
-        style={{
-          color: '#0290ff',
-          fontSize: '3rem',
-          padding: '0.5rem',
-          cursor: 'pointer',
-        }}
-      />
+      <ImUser />
     </div>
   </div>
 );
