@@ -84,7 +84,7 @@ Install dependencies to this project with:
 
 # 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[ Develop a calculatop for basic maths operations]**
+- [ ] **[ Develop more pages to the bookstore app]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
